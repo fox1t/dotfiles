@@ -1,0 +1,41 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+      "key": "cmd+shift+7",
+      "command": "editor.action.commentLine",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "cmd+y",
+      "command": "redo",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "shift+cmd+d",
+      "command": "editor.action.goToDeclaration"
+    },
+    {
+      "key": "alt+cmd+down",
+      "command": "-editor.action.goToDeclaration"
+    },
+    {
+      "key": "shift+alt+cmd+[Backquote]",
+      "command": "editor.action.inPlaceReplace.down",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "shift+cmd+[Backquote]",
+      "command": "-editor.action.inPlaceReplace.down",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "alt+cmd+[Backquote]",
+      "command": "editor.action.inPlaceReplace.up",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "cmd+[Backquote]",
+      "command": "-editor.action.inPlaceReplace.up",
+      "when": "editorTextFocus && !editorReadonly"
+    }
+  ]

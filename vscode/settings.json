@@ -1,0 +1,61 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "debug.inlineValues": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+    "editor.tabSize": 2,
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "solid",
+    "editor.renderWhitespace": "boundary",
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/.DS_Store": true,
+      //    "**/node_modules": true,
+      "**/typings": true,
+      //    "**/.vscode": true,
+      "**/typings.json": true
+      // "**/.next": true
+    },
+    "files.associations": {
+      "*.tag": "htmltag"
+    },
+    "editor.wordWrap": "on",
+    "workbench.iconTheme": "vscode-great-icons",
+    "window.title": "${activeEditorMedium}${separator}${rootName}",
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.rulers": [100],
+    "emmet.syntaxProfiles": {
+      "javascript": "jsx",
+      "xml": {
+        "attr_quotes": "single"
+      }
+    },
+    "window.zoomLevel": 0,
+    "editor.renderIndentGuides": false,
+    "window.openFilesInNewWindow": "on",
+    "editor.dragAndDrop": false,
+    "typescript.npm": "/Users/maksim/.nvm/versions/node/v10.15.0/bin/npm",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "none",
+    "workbench.sideBar.location": "left",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "gitlens.advanced.messages": {
+      "suppressShowKeyBindingsNotice": true
+    },
+    "explorer.openEditors.visible": 0,
+    "editor.formatOnSave": true,
+    "mongo.shell.path": "/Users/maksim/Applications/mongoshell/bin/mongo",
+    "prettier.disableLanguages": ["vue", "json"],
+    "breadcrumbs.enabled": false,
+    "workbench.colorTheme": "One Monokai"
+  }
+  

@@ -1,0 +1,5 @@
+extensions=(Tyriar.sort-lines Zignd.html-css-class-completion aaron-bond.better-comments alefragnani.Bookmarks azemoh.one-monokai blanu.vscode-styled-jsx chenxsan.vscode-standardjs christian-kohler.npm-intellisense christian-kohler.path-intellisense cssho.vscode-svgviewer dbaeumer.vscode-eslint donjayamanne.githistory DotJoshJohnson.xml eamodio.gitlens EditorConfig.EditorConfig eg2.tslint emmanuelbeziat.vscode-great-icons esbenp.prettier-vscode mechatroner.rainbow-csv mikestead.dotenv mohsen1.prettify-json ms-azuretools.vscode-cosmosdb ms-kubernetes-tools.vscode-kubernetes-tools ms-python.python ms-vscode.azure-account ms-vscode.sublime-keybindings ms-vsliveshare.vsliveshare naumovs.color-highlight patbenatar.advanced-new-file PeterJausovec.vscode-docker redhat.java redhat.vscode-yaml samverschueren.final-newline sandy081.todotasks sdras.night-owl shanoor.vscode-nginx shyykoserhiy.vscode-spotify wmaurer.change-case)
+
+for i in $extensions; do
+    code --install-extension $i
+done
